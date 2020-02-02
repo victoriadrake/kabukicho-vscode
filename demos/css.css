@@ -1,0 +1,16 @@
+/* A comment */
+div>.class .also_class {
+    background-image: url("data:image/svg+xml...");
+    position: relative;
+}
+
+/* Gradient background */
+#identifier,
+.box.special {
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, #200933 65%, #3d0b43);
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
