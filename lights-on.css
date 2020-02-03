@@ -1,19 +1,24 @@
 .mtk3,
-.mtk6 {
+.mtk5 {
     color: #61e2ff;
     text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
+}
+
+.mtk3.mtki {
+    color: #6071cc;
 }
 
 .mtk4 {
     color: #ffffffee;
 }
 
+.mtk6 ,
 .mtk14 {
     color: #9963ff;
 }
 
 .mtk8 {
-    color: #61ff96;
+    color: #ffcc00;
 }
 
 .mtk9,
@@ -24,10 +29,10 @@
 }
 
 .mtk7 {
-    color: #9963ff;
+    color: #61ff96;
 }
 
-.mtk5 {
+.mtk4 {
     color: #fc199a;
     text-shadow: 0 0 2px #393a33, 0 0 6px #ffffff44, 0 0 8px #fc199a, 0 0 2px #fc199a;
 }
@@ -47,7 +52,7 @@
 .editor .content,
 .monaco-editor {
     background-color: transparent !important;
-    background-image: linear-gradient(to bottom, #200933 65%, #3d0b43);
+    background-image: linear-gradient(to bottom, #130d1a 65%, #200933);
     background-size: auto 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -152,8 +157,8 @@
 }
 
 .monaco-editor .line-numbers {
-    color: #9c31da66;
-    text-shadow: 0 0 2px #393a33, 0 0 6px #ffffff44, 0 0 10px #9c31da66, 0 0 2px #9c31da66;
+    color: #495495;
+    text-shadow: 0 0 2px #393a33, 0 0 6px #ffffff44, 0 0 10px #495495, 0 0 2px #495495;
 }
 
 .monaco-editor .editor-group-container.empty {}
