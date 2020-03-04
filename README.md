@@ -29,7 +29,13 @@ Optionally, activate the custom CSS for a Robot-Restaurant-style party session:
 }
 ```
 
-Use the correct full path to the CSS file in your VS Code extensions directory, or wherever you choose to store it in your filesystem.
+Be sure to use the correct full file path URL to the CSS file for your operating system. This may be in your VS Code extensions directory, or wherever you choose to store the file it in your filesystem.
+
+Windows example: `file:///C:/Users/username/.vscode/extensions/name-of-extension/lights-on.css`
+
+MacOS and Linux example: `file:///home/user/.vscode/extensions/name-of-extension/lights-on.css`
+
+For troubleshooting, see [full set up instructions for Custom CSS and JS here](https://github.com/be5invis/vscode-custom-css#getting-started).
 
 3. From the command palette (`Ctrl + Shift + P` or `Shift + ⌘ + P`), select **Reload Custom CSS and JS**. You can also **Disable** and **Enable** the custom CSS from here.
 
